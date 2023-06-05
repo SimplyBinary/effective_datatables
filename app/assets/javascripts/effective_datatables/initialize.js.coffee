@@ -204,6 +204,8 @@ destroyDataTables = ->
 $ -> initializeDataTables()
 $(document).on 'effective-datatables:initialize', (event) -> initializeDataTables(event.currentTarget)
 
+$(document).on 'panel:change', -> initializeDataTables()
+$(document).on 'filter.vision.effective-filter-box', -> initializeDataTables()
 $(document).on 'page:change', -> initializeDataTables()
 $(document).on 'turbolinks:load', -> initializeDataTables()
 $(document).on 'turbolinks:render', -> initializeDataTables()
