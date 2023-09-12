@@ -1,4 +1,4 @@
-# Effective DataTables
+# Effective DataTables (SB Fork)
 
 Use a high level DSL and just one ruby file to create a [Datatables jQuery table](http://datatables.net/) for any ActiveRecord class or Array.
 
